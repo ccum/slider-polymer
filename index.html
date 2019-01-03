@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>slider</title>
+    <meta name="description" content="slider description">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module" src="/src/slider-item/slider-item.js" crossorigin></script>
+    <script type="module" src="/src/slider-item/image-slider.js" crossorigin></script>
+  </head>
+  <body>
+    <image-slider>
+      <slider-item path="img/1.jpg"></slider-item>
+      <slider-item path="img/2.jpg"></slider-item>
+      <slider-item path="img/3.jpg"></slider-item>
+      <slider-item path="img/4.jpg"></slider-item>
+    </image-slider>
+    
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "slider",
+  "short_name": "slider",
+  "start_url": "/",
+  "display": "standalone"
+}
